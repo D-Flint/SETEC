@@ -1,0 +1,31 @@
+1. Find daily profit 
+Data-Structure
+	Input: int orange_tree = 15, apple_tree = 18, fruit_per_tree = 21;
+	       float apple_price = 0.5, orange_price = 0.7;
+	Output: float daily_profit;
+Algorithm:
+	Logic: apple_per_day = apple_tree * fruit_per_tree;
+	       orange_per_day = orange_tree * fruit_per_tree;
+	       daily_proffit = (apple_pere_day * apple_price) + (orange_per_day * orange_price)
+	Control: Direct Calculation	
+
+
+2. Spending
+Data-Structure:
+	Input: int lili_money = 50, number_of_book = 4;
+	       float book_price = 11.5
+	output: float total_spending, money_left;
+Algorithm: 
+	logic: total_spend = book_price * number_of_book;
+	       money_left = lili_money - total_spend;
+	Control: Direct Calculation
+
+
+3. Find the needed money
+Data-Structure: 
+	Input: int number_of_student = 42, price_per_student = 78, money_have = 500;
+	Output: int money_needed;
+Algorithm:
+	logic: total_spending = number_of_student * price_per_student
+	       money_needed = total_spending - money_have;
+	Control: Direct Calculation;
